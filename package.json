@@ -1,7 +1,6 @@
 {
   "name": "project-task-runner",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "init-project": "npm install && npm-run-all init:*",
@@ -27,13 +26,22 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.4",
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.27.10",
     "html-validate": "^7.3.3",
     "mkdirp": "^0.5.6",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
     "postcss": "^8.2.6",
     "postcss-cli": "^8.3.1",
-    "sass": "^1.44.0"
-  }
+    "sass": "^1.54.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkadiuszGajewski/Project-task-runner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArkadiuszGajewski/Project-task-runner/issues"
+  },
+  "homepage": "https://github.com/ArkadiuszGajewski/Project-task-runner#readme",
+  "description": ""
 }
